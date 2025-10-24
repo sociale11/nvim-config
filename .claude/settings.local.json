@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/sociale/projects/cosmo.nvim/dev-files/syntax-examples/**)",
+      "Read(//home/sociale/projects/cosmo.nvim/colors/**)",
+      "Read(//home/sociale/projects/cosmo.nvim/lua/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
