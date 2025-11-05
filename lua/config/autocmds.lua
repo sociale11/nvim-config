@@ -6,3 +6,13 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+vim.api.nvim_create_autocmd("BufWritePre", {
+  pattern = { "*.js", "*.jsx", "*.ts", "*.tsx", "*.json", "*.css", "*.html" },
+  callback = function()
+    vim.cmd(
+      "silent !prettier --write " .. vim.fn.shellescape(vim.fn.expand("%"))
+    )
+    vim.cmd("edit")
+  end,
+})
