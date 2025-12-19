@@ -17,6 +17,8 @@ return {
       "yaml",
       "toml",
       "html",
+      "php",
+      "blade",
       "css",
       "svelte",
     },
