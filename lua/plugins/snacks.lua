@@ -10,7 +10,15 @@ return {
         files = {
           hidden = true,
           ignored = true,
-          exclude = { "node_modules", ".git", ".next" },
+          exclude = {
+            "node_modules",
+            ".git",
+            ".next",
+            ".claude",
+            ".codex",
+            ".vscode",
+            ".cursor",
+          },
         },
       },
     },
