@@ -15,3 +15,6 @@ vim.opt.guicursor = {
   "r-cr:hor20", -- Replace: horizontal bar
   "o:hor50", -- Operator-pending: horizontal bar
 }
+
+vim.env.PATH = vim.env.PATH
+  .. ":/home/sociale/.config/nvm/versions/node/v24.14.1/bin"
