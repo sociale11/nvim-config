@@ -6,6 +6,12 @@ return {
         enabled = false,
       },
       servers = {
+        eslint = {
+          settings = {
+            useFlatConfig = true,
+            workingDirectory = { mode = "auto" },
+          },
+        },
         tsgo = {
           filetypes = {
             "typescript",
