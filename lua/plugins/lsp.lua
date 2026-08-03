@@ -9,7 +9,7 @@ return {
         eslint = {
           settings = {
             useFlatConfig = true,
-            workingDirectory = { mode = "auto" },
+            workingDirectories = { mode = "auto" },
           },
         },
         tsgo = {
@@ -51,7 +51,7 @@ return {
         typescript = { "prettierd" },
         typescriptreact = { "prettierd" },
         json = { "prettierd" },
-        css = { "prettier" },
+        css = { "prettierd" },
         html = { "prettierd" },
         go = { "gofmt" },
       },
