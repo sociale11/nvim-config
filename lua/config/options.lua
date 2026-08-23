@@ -7,14 +7,16 @@ vim.opt.undofile = true
 vim.opt.swapfile = false
 vim.opt.smartcase = true
 vim.opt.hlsearch = true
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "120"
 
 vim.opt.guicursor = {
-  "n-v-c:block", -- Normal, Visual, Command: block cursor
+  "n-v-c:block",                                       -- Normal, Visual, Command: block cursor
   "i-ci-ve:block-blinkwait700-blinkon400-blinkoff250", -- Insert modes: blinking block
-  "r-cr:hor20", -- Replace: horizontal bar
-  "o:hor50", -- Operator-pending: horizontal bar
+  "r-cr:hor20",                                        -- Replace: horizontal bar
+  "o:hor50",                                           -- Operator-pending: horizontal bar
 }
 
 vim.env.PATH = vim.env.PATH
-  .. ":/home/sociale/.config/nvm/versions/node/v24.14.1/bin"
+    .. ":/home/sociale/.config/nvm/versions/node/v24.14.1/bin"
+
+vim.opt.shell = "/bin/zsh"

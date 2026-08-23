@@ -1,1 +1,0 @@
-/home/sociale/.config/omarchy/current/theme/neovim.lua
